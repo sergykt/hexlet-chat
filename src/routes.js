@@ -1,4 +1,4 @@
-const apiPath = '/api/v1';
+const apiPath = 'https://hexlet-chat-fastify.onrender.com';
 
 const routes = {
   loginPath: () => [apiPath, 'login'].join('/'),
